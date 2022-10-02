@@ -11,7 +11,7 @@ typedef struct BOOK
     int num;
     char name[20];
     int price;
-}BOOK;
+}*BOOK;
 
 int main()
 {
